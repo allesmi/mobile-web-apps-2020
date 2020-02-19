@@ -13,4 +13,4 @@ Die Prüfung findet am letzten Kursabend statt.
 
 Session | Thema | Folien
 --- | --- | --- 
-1 | Einleitung: Allgemeines, Definition, Beispiele | [link](slides/01-intro.pdf)
+1 | Einleitung: Allgemeines, Definition, Beispiele | [link](01-einleitung/slides.pdf)
