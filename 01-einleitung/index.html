@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taschenrechner</title>
+
+  <style>
+    select,
+    input {
+      height: 2em;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+<h1>Taschenrechner</h1>
+<form>
+  <label>
+    Zahl 1:
+    <input type="text" id="zahl1" class="value">
+  </label>
+
+  <label>
+    Operator:
+    <select name="operator" id="operator">
+      <option>+</option>
+      <option>-</option>
+      <option>*</option>
+      <option>/</option>
+    </select>
+  </label>
+
+  <label>
+    Zahl 2:
+    <input type="text" id="zahl2" class="value">
+  </label>
+  
+  <label>
+    Zahl 3:
+    <input type="text" id="zahl3" class="value">
+  </label>
+
+  <label>
+    Zahl 4:
+    <input type="text" id="zahl4" class="value">
+  </label>
+
+  <button type="button" id="calculateButton">Berechne!</button>
+</form>
+<div id="output"></div>
+<script>
+function parse(zahls) {
+  if (zahls.toUpperCase() == 'PI') {
+    return Math.PI;
+  } else {
+    return parseFloat(zahls);
+  }
+}
+
+function calculate() {
+  let zahlElemente = document.getElementsByClassName('value');
+  let output = document.getElementById('output');
+
+  let operatorElement = document.getElementById('operator');
+  let operator = operatorElement.options[operatorElement.selectedIndex].value;
+
+  let zahlen = [];
+  for (let i = 0; i < zahlElemente.length; i++) {
+    zahlen.push(parse(zahlElemente[i].value));
+  }
+
+  let isOk = true;
+  for (let i = 0; i < zahlen.length; i++) {
+    isOk = isOk && (!Number.isNaN(zahlen[i]));
+  }
+
+  if (!isOk) {
+    output.innerText = 'Bitte geben Sie Zahlen ein.';
+    return;
+  }
+
+  let result = zahlen[0];
+  for (let i = 1; i < zahlen.length; i++) {
+    if (operator === '+') {
+      result = result + zahlen[i];
+    } else if (operator === '-') {
+      result = result - zahlen[i];
+    } else if (operator === '*') {
+      result = result * zahlen[i];
+    } else if (operator === '/') {
+      result = result / zahlen[i];
+    }
+  }
+  output.innerText = result;
+}
+
+let button = document.getElementById('calculateButton');
+button.addEventListener('click', calculate);
+</script>
+</body>
+</html>
