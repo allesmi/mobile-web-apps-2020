@@ -5,6 +5,8 @@
 
 ## Allgemeines
 
+Es werden Kentnisse in HTML und JavaScript vorausgesetzt. [Das Skriptum der vorhergehenden Kurse ist hier zu finden](https://github.com/maniobi/wifi-jwe20).
+
 Der Kurs wird in Form von Frontalunterricht und praktischen Übungen abgehalten.
 
 Die Prüfung findet am letzten Kursabend statt.
