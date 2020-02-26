@@ -16,3 +16,4 @@ Die Prüfung findet am letzten Kursabend statt.
 Session | Thema | Folien | Übung
 --- | --- | --- | ---
 1 | Einleitung: Allgemeines, Definition, Beispiele | [link](01-einleitung/slides.pdf) | [Calculator](01-einleitung/index.html)
+2  | HTML5 | [link](02-html5/slides.pdf) | tba
