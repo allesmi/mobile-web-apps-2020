@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX Intro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Chat App</h1>
+    <!-- Der User kann seinen Namen eingeben -->
+    <label for="userNameInput">User Name: </label>
+    <input type="text" id="userNameInput">
+
+    <!-- Es wird eine Liste an Nachrichten angezeigt -->
+    <div id="chatWindow"></div>
+
+    <!-- Der User kann diese Liste manuell aktualisieren -->
+    <button type="button" id="refreshButton">Aktualisieren</button>
+
+    <!-- Der User kann eine Nachricht schreiben -->
+    <div class="input-box">
+        <label for="textInput">Nachricht:</label>
+        <input type="text" name="textInput" id="textInput">
+        <button type="button" id="sendButton">Senden</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
