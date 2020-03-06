@@ -1,18 +1,29 @@
+body {
+    height: 50vh;
+}
+
+.username-component,
+.input-box {
+    margin: 1rem auto;
+}
+
+.chat {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    overflow-y: scroll;
+    height: 100%;
+}
+
 .message {
     border-bottom: 1px solid #ccc;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.message>* {
-    margin-right: 1rem;
+.message>.text {
+    margin-bottom: 0.51rem;
 }
 
-.input-box {
-    padding: 1rem;
-    height: 4rem;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: white;
+.message>time {
+    color: #333;
 }

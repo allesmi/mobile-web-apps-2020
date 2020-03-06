@@ -12,14 +12,10 @@
 <body>
     <h1>Chat App</h1>
     <!-- Der User kann seinen Namen eingeben -->
-    <label for="userNameInput">User Name: </label>
-    <input type="text" id="userNameInput">
-
-    <!-- Es wird eine Liste an Nachrichten angezeigt -->
-    <div id="chatWindow"></div>
-
-    <!-- Der User kann diese Liste manuell aktualisieren -->
-    <button type="button" id="refreshButton">Aktualisieren</button>
+    <div class="username-component">
+        <label for="userNameInput">User Name: </label>
+        <input type="text" id="userNameInput">
+    </div>
 
     <!-- Der User kann eine Nachricht schreiben -->
     <div class="input-box">
@@ -28,6 +24,12 @@
         <button type="button" id="sendButton">Senden</button>
     </div>
 
+    <!-- Der User kann diese Liste manuell aktualisieren -->
+    <button type="button" id="refreshButton">Aktualisieren</button>
+
+    <!-- Es wird eine Liste an Nachrichten angezeigt -->
+    <div id="chatWindow" class="chat"></div>
+    <script src="jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
 </body>
 
