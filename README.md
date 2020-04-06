@@ -19,6 +19,8 @@ Session | Thema | Folien | Übung
 2  | HTML5 | [link](02-html5/slides.pdf) | [Grid als dynamisches HTML](02-html5/uebung/)
 3  | AJAX | [link](03-ajax/slides.pdf) | [Chat-App](03-ajax/chat-app)
 4  | AJAX Wiederholung, localStorage | [link](03-ajax/slides.pdf) | [Chat-App](03-ajax/chat-app)
+5  | AJAX, Dynamisches HTML | | 
+6  | Geolocation API | | [Geolocation](geolocation/)
 
 ## Links
 
