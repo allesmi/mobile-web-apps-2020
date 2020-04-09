@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+#interaction {
+    background-color: aquamarine;
+    height: 100%;
+    margin: 3rem;
+
+}
