@@ -1,0 +1,24 @@
+{
+	"words": [
+		{
+			"short": "AJAX",
+			"long": "Asynchronous JavaScript and XML"
+		},
+		{
+			"short": "CSS",
+			"long": "Cascading Style Sheets"
+		},
+		{
+			"short": "HTML",
+			"long": "Hypertext Markup Language"
+		},
+		{
+			"short": "HTTP",
+			"long": "Hypertext Transfer Protocol"
+		},
+		{
+			"short": "JS",
+			"long": "JavaScript"
+		}
+	]
+}
