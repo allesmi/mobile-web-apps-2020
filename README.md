@@ -21,7 +21,7 @@ Session | Thema | Folien | Übung
 4  | AJAX Wiederholung, localStorage | [link](03-ajax/slides.pdf) | [Chat-App](03-ajax/chat-app)
 5  | AJAX, Dynamisches HTML | | 
 6  | Geolocation API | | [Geolocation](geolocation/)
-7  | Events | [slides](events/events.pdf) | [code](events/)
+7  | Events | [link](events/events.pdf) | [code](events/)
 8  | Sensoren | ohne Folien | [code](sensors/)
 
 ## Links
